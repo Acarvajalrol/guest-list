@@ -1,5 +1,5 @@
 import { useState } from "react";
-import getDataHooks from "./Hooks/GetDataHooks";
+import useGetDataHooks from "./Hooks/GetDataHooks";
 import GuestList from "./Hooks/GuestList";
 import GuestInfo from "./Hooks/GuestInfo";
 
@@ -8,10 +8,10 @@ const API =
 
 export default function App() {
   const [guest, setGuest] = useState(null);
-  const { isLoading, guests } = getDataHooks(API);
+  const { isLoading, guests } = useGetDataHooks(API);
 
-  console.log("isLoading", isLoading);
-  console.log("guests", guests);
+  // console.log("isLoading", isLoading);
+  // console.log("guests", guests);
 
   if (isLoading) return <p>Loading...</p>;
 

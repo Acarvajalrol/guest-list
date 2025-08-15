@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function getDataHooks(url) {
+export default function useGetDataHooks(url) {
   const [guests, setGuests] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 

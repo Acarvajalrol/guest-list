@@ -1,0 +1,49 @@
+main {
+  margin: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+button {
+  width: auto;
+}
+
+/* Alternative css for GuestList.jsx alternative code */
+/* nav {
+  display: flex;
+  gap: 15rem;
+} */
+
+/* ol {
+  padding-left: 0.5rem;
+} */
+
+/* .guestEmail {
+  margin-left: 10rem;
+}
+
+.guestPhone {
+  margin-left: 10rem;
+} */
+/* 
+li {
+  cursor: pointer;
+} */
